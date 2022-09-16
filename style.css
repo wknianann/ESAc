@@ -1,0 +1,104 @@
+* {
+    text-decoration: none;
+    margin: 5;
+    padding: 5;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body{
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    height: 100px;
+    font-family: "Trebuchet MS" ;
+    background-color: #edeef1;
+}
+
+.lesson-wrapper {
+    padding-bottom: 65px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #85C6FA;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #55585f;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    color: black
+  }
+
+  .heading p {
+    position: relative;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon:active {
+    position: relative;
+    top: 7px;
+  }
+  
+  .lesson-icon p {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    color: black;
+    font-size: larger;
+  }
+
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+    color: #55585f;
+    padding-bottom: 200px;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+    color: black;
+  }
+
+  .heading h4 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10%;
+    padding-top: 45px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #0c5bd2;
+    cursor: default;
+    box-shadow: 0 7px #070c61;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
